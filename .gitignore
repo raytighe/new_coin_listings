@@ -1,0 +1,9 @@
+_site
+.idea/*
+*.iml
+__pycache__/
+exchange_research.csv
+*.bat
+log.txt
+credentials.py
+venv/

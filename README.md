@@ -5,7 +5,9 @@ Cryptocurrencies, like stocks, are nearly impossible to consistently trade succe
 >When major cryptocurrency exchanges such as Binance and Coinbase announce they are going to list a new cryptocurrency coin or token on their platform, the price of that coin or token will likely increase significantly in few minutes.
 
 ## An Example
-An example of this event occurred on December 27th, 2021 around midnight. In the evening, [$JOE](https://coinmarketcap.com/currencies/joe/) was trading around $2.20. At 11:58pm, [Binance tweeted](https://twitter.com/binance/status/1475692661822705666) that they would list $JOE and within 10 minutes, $JOE was trading at $2.50, about 14% higher. This trading strategy attempts to capitalize on the sudden upwards movement immediately after these types of announcements.
+An example of this event occurred on December 27th, 2021 around midnight. In the evening, [$JOE](https://coinmarketcap.com/currencies/joe/) was trading around $2.20. At 11:58pm, [Binance tweeted](https://twitter.com/binance/status/1475692661822705666) that they would list $JOE and within 10 minutes,
+$JOE was trading at $2.50, about 14% higher. This trading strategy attempts to capitalize on the sudden upwards movement immediately after these types of announcements.
+Below are images of Binance's tweet along with the price of $JOE immediately before and after the annoucement. The price clearly spikes just after 11:58pm.
 
 <p align="center">
 <img src="https://github.com/raytighe/new_coin_listings/blob/main/img/binance_will_list_joe.PNG" width="50%" height="50%">

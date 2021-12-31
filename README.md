@@ -9,7 +9,7 @@ An example of this event occurred on December 27th, 2021 around midnight. In the
 
 <p align="center">
 <img src="https://github.com/raytighe/new_coin_listings/blob/main/img/binance_will_list_joe.PNG" width="50%" height="50%">
-<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/joe_price_12.27.2021.PNG" width="50%" height="50%">
+<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/joe_price_12.27.2021.PNG" width="60%" height="60%">
 </p>
 
 ## How it works

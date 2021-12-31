@@ -2,7 +2,7 @@
 
 Cryptocurrencies, like stocks, are nearly impossible to consistently trade successfully without a disciplined strategy. This project is a fully automated cryptocurrency trading bot based on a simple hypothesis that,
 
->When major cryptocurrency exchanges such as Binance and Coinbase announce they are going to list a new cryptocurrency coin or token on their platform, the price of that coin or token will likely increase significantly in few minutes.
+>when major cryptocurrency exchanges such as Binance and Coinbase announce they are going to list a new cryptocurrency coin or token on their platform, the price of that coin or token will likely increase significantly in few minutes.
 
 ## An Example
 An example of this event occurred on December 27th, 2021 around midnight. In the evening, [$JOE](https://coinmarketcap.com/currencies/joe/) was trading around $2.20. At 11:58pm, [Binance tweeted](https://twitter.com/binance/status/1475692661822705666) that they would list $JOE and within 10 minutes,
@@ -20,7 +20,7 @@ In short, this program scans data sources for announcements of new listings and 
 1. Scan tweets from [@binance](https://twitter.com/binance) using the Twitter API's recent search endpoint to find recent tweets matching the regex pattern "Binance will list".
 2. If a recent tweet is found, parse the coin symbol from the tweet and insert the coin symbol, exchange, and tweet text into a PostgreSQL database for record keeping. If no tweet is found, repeat step 1 using the next data source (such as the Coinbase Twitter account).
 3. Attempt to trade for that coin on  [Gate.io](https://gate.io)
-4. Send an email alert notifying yourself of new coin listing using the SendGrid API. I this set up to email a dedicated Gmail email address with push notifications on my phone.
+4. Send an email alert notifying yourself of new coin listing using the SendGrid API. I set this up to email a dedicated Gmail email address with push notifications on my phone.
 5. Repeat step 1 using the next data source (such as the Coinbase Twitter account).
 
 One challenge I encountered was finding an exchange that has already listed the coin. Binance and Coinbase announce they _will_ list coins soon, but by time they list them, the sudden price increase has already occurred. I chose to trade on Gate.io, a less popular exchange, because they usually list coins before the more popular exchanges such as Binance and Coinbase do. 

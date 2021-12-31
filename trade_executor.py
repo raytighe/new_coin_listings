@@ -1,5 +1,5 @@
 from credentials import gateio_creds
-from gate_api import ApiClient, Configuration, Order, SpotApi, SpotPriceTriggeredOrder, SpotPriceTrigger, SpotPricePutOrder
+from gate_api import ApiClient, Configuration, Order, SpotApi
 import time
 
 

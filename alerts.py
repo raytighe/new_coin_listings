@@ -9,20 +9,20 @@ class EmailAlerts:
     """
     def __init__(self):
         self.SENDGRID_API_KEY = sendgrid_creds['SENDGRID_API_KEY']
+        self.SENDER = sendgrid_creds['FROM_EMAIL']
+        self.RECIPIENT = sendgrid_creds['TO_EMAIL']
 
-    def send_email(self, subject, body, sender='raymondt013@gmail.com', recipient='realcoinboys@gmail.com'):
+    def send_email(self, subject, body):
         """
         Method to send email
         :param subject: the email subject line
         :param body: the body of the email
-        :param sender: the email address of the sender
-        :param recipient: the intended email recipient
         :return:
         """
         try:
             sg = SendGridAPIClient(api_key=self.SENDGRID_API_KEY)
-            from_email = Email(sender)
-            to_email = To(recipient)
+            from_email = Email(self.SENDER)
+            to_email = To(self.RECIPIENT)
             content = Content("text/plain", body)
             mail = Mail(from_email, to_email, subject, content)
 

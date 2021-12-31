@@ -1,6 +1,8 @@
 db_connection= {'string' : ''}
 
-sendgrid_creds = {'SENDGRID_API_KEY' : ''}
+sendgrid_creds = {'SENDGRID_API_KEY' : '',
+                   'TO_EMAIL' : '',
+                   'FROM_EMAIL' : }
 
 twitter_creds = {'TWITTER_API_KEY' : '',
 		 'TWITTER_API_KEY_SECRET' : '',
@@ -11,3 +13,4 @@ twitter_creds = {'TWITTER_API_KEY' : '',
 
 gateio_creds = {"apiKey":"",
 		"secretKey":""}
+        

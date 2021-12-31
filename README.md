@@ -8,8 +8,8 @@ Cryptocurrencies, like stocks, are nearly impossible to consistently trade succe
 An example of this event occurred on December 27th, 2021 around midnight. In the evening, [$JOE](https://coinmarketcap.com/currencies/joe/) was trading around $2.20. At 11:58pm, [Binance tweeted](https://twitter.com/binance/status/1475692661822705666) that they would list $JOE and within 10 minutes, $JOE was trading at $2.50, about 14% higher. This trading strategy attempts to capitalize on the sudden upwards movement immediately after these types of announcements.
 
 <p align="center">
-<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/binance_will_list_joe.PNG" width="20%" height="20%">
-<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/joe_price_12.27.2021.PNG" width="20%" height="20%">
+<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/binance_will_list_joe.PNG" width="40%" height="40%">
+<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/joe_price_12.27.2021.PNG" width="40%" height="40%">
 </p>
 
 ## How it works

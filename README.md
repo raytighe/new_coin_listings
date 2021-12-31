@@ -6,8 +6,9 @@ Cryptocurrencies, like stocks, are nearly impossible to consistently trade succe
 
 ## An Example
 An example of this event occurred on December 27th, 2021 around midnight. In the evening, [$JOE](https://coinmarketcap.com/currencies/joe/) was trading around $2.20. At 11:58pm, [Binance tweeted](https://twitter.com/binance/status/1475692661822705666) that they would list $JOE and within 10 minutes, $JOE was trading at $2.50, about 14% higher. This trading strategy attempts to capitalize on the sudden upwards movement immediately after these types of announcements.
-![At 11:58pm Binance tweeted they will list $JOE.](https://github.com/raytighe/new_coin_listings/blob/main/img/binance_will_list_joe.PNG | width=50% height = 50%)
-![Price of $JOE on 12-27-21](https://github.com/raytighe/new_coin_listings/blob/main/img/joe_price_12.27.21.PNG)
+<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/binance_will_list_joe.PNG" width="50%" height="50%">
+<img src="https://github.com/raytighe/new_coin_listings/blob/main/img/joe_price_12.27.21.PNG" width="100" height="100">
+
 
 ## How it works
 In short, this program scans data sources for announcements of new listings and attempts to trade for that coin as fast as possible. The current data sources are the Twitter accounts for Binance and Coinbase. I use a cron job to run this program every minute on a Linux virtual machine hosted on Azure. Below are the high-level steps:
